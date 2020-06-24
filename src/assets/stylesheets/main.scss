@@ -1,0 +1,28 @@
+@import "./reset";
+
+/* ====================================
+      main body
+==================================== */
+body {
+  background-color: #e8eff5;
+}
+* {
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+/* ====================================
+      home page devision
+==================================== */
+@import "./home_page_devision";
+@import "./header.scss";
+@import "./article.scss";
+@import "./tag.scss";
+@import "./login.scss";
+@import "./signup.scss";
+@import "./create_article.scss";
+@import "./setting.scss";
+@import "./article_details.scss";
+@import "./profile.scss";
+@import "./media-query.scss";
